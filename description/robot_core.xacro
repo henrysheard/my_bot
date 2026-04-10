@@ -19,7 +19,6 @@
     <material name="black">
         <color rgba="0 0 0 1"/>
     </material>
-
     <material name="red">
         <color rgba="1 0 0 1"/>
     </material>
@@ -147,8 +146,6 @@
 
     <gazebo reference="caster_wheel_link">
         <material>Gazebo/Black</material>
-        <mu1 value ="0.001"/>
-        <mu2 value ="0.001"/>
     </gazebo>
 
 </robot>
